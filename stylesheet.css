@@ -41,10 +41,11 @@ body {
 	font-size: 3em;
 	font-family: 'Amatica SC', cursive;
 	font-weight: bold;
-	width: 100%;
+	width: 20%;
 	height: 200px;
 	filter: grayscale(100%);
 	text-align:center;
+	float: left;
 	background-color: rgba(255,0,0,0.6);
 }
 
