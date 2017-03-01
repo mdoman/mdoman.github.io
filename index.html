@@ -6,9 +6,20 @@
     <link href="./css" rel="stylesheet">
 </head>
 <body marginwidth="0" marginheight="0">
-    <div id="container">
-    <span class="element" style="white-space:pre">mark doman</span><span class="typed-cursor">|</span>
-    </div>
+	<div id="container">
+    	<span class="element" style="white-space:pre">
+    	<script src="node_modules/jquery/dist/jquery.js"></script>
+    	<script src="node_modules/typed.js"></script>
+    	<script>
+        	$(function(){
+            	$(".element").typed({
+                	strings: ["hi! ^2000i'm mark.^1000", "welcome to my site!^2000", "check out my projects below^2000", "mark doman"],
+                	typeSpeed: 75,
+            	});
+        	});
+    	</script>
+    	</span>
+    	</div>
 
 	<span class="blocker">
 	</span>
