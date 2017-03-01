@@ -16,7 +16,7 @@ body {
 	color: black;
 	font-size: 3em;
 	font-family: 'Amatica SC', cursive;
-	width: 100%;
+	width: 25%;
 	height: 200px;
 	filter: grayscale(100%);
 	text-align:center;
@@ -34,14 +34,14 @@ body {
 
 .cooking {
 	overflow: hidden;
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 	background-image: url('http://iliketosave.com/wp-content/themes/couponpress/thumbs/freshproducesmall.jpg');
 	color: black;
 	font-size: 3em;
 	font-family: 'Amatica SC', cursive;
 	font-weight: bold;
-	width: 20%;
+	width: 25%;
 	height: 200px;
 	filter: grayscale(100%);
 	text-align:center;
