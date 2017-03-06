@@ -8,63 +8,127 @@ body {
 	margin: 10em 10em 10em 10em;
 }
 
-.blog {
-	overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('http://www.muddyingthewaters.com/wp-content/uploads/2012/08/IMG_1831.jpg');
-	color: black;
-	font-size: 3em;
-	font-family: 'Amatica SC', cursive;
-	width: 25%;
-	height: 200px;
-	filter: grayscale(100%);
-	text-align:center;
-
+.square {
+		height: 15%;
+		color: black;
+		font-size: 3em;
+		font-family: 'Amatica SC', cursive;
+		font-weight: bold;
+    float:left;
+		filter: grayscale(100%);
+    position: relative;
+    width: 20%;
+    /* padding-bottom : 5%;  = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
-
-.blog:hover {
+.square:hover {
 	filter: grayscale(0%);
 }
-.label {
-	background-color:grey;
-	opacity: .5;
-}
 
-.cooking {
+.reading {
+	height: 200px;
 	overflow: hidden;
   background-size: cover;
   background-position: center;
-	background-image: url('http://iliketosave.com/wp-content/themes/couponpress/thumbs/freshproducesmall.jpg');
-	color: black;
-	font-size: 3em;
-	font-family: 'Amatica SC', cursive;
-	font-weight: bold;
-	width: 25%;
-	height: 200px;
-	filter: grayscale(100%);
-	text-align:center;
-	float: left;
-	background-color: rgba(255,0,0,0.6);
+	background-image: url('http://bestdelegate.com/wp-content/uploads/2013/01/research2books1-300x199.jpg');
 }
 
-.cooking:hover {
-	filter: grayscale(0%);
+.readingtext {
+	visibility: hidden;
+	width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
 }
-.travel {
-	background-color: grey;
-	font-color: white;
+
+.reading:hover .readingtext {
+	visibility: visible;
+	opacity: .75;
+	font-size: .5em;
 }
+
+.programming {
+	height: 200px;
+	overflow: hidden;
+  background-size: cover;
+  background-position: center;
+	background-image: url('http://cdn.static-economist.com/sites/default/files/images/2015/09/blogs/economist-explains/code2.png');
+}
+
+.programmingtext {
+	visibility: hidden;
+	width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.programming:hover .programmingtext {
+	visibility: visible;
+	opacity: .75;
+	font-size: .5em;
+}
+
+.traveling {
+	height: 200px;
+	overflow: hidden;
+  background-size: cover;
+  background-position: center;
+	background-image: url('https://www.machupicchuviajesperu.com/en/img/imagen-tours/machu-picchu-ciudadela.jpg');
+}
+
+.travelingtext {
+	visibility: hidden;
+	width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.traveling:hover .travelingtext {
+	visibility: visible;
+	opacity: .75;
+	font-size: .5em;
+}
+
+.cooking {
+	height: 200px;
+	overflow: hidden;
+  background-size: cover;
+  background-position: center;
+	background-image: url('https://earthselementshealingfoods.files.wordpress.com/2013/09/wood-cutting-board.jpg');
+}
+
+.cookingtext {
+	visibility: hidden;
+	width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.cooking:hover .cookingtext {
+	visibility: visible;
+	opacity: .75;
+	font-size: .5em;
+}
+
 .element {
     font-size: 5em;
     color: white;
     font-family: 'Amatica SC', cursive;
-}
-
-.projects {
-	background-color: white;
-	font-size: 2em;
 }
 
 .header {
