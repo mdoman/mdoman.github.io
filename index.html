@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <head>
-    <title>mark doman</title>
+    <title>Mark Doman</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
 </head>
 <body>
     <div id="container">
-    <span class="element" style="white-space:pre">
-    <script src="jquery/dist/jquery.js"></script>
-    <script src="typed.js"></script>
-    <script>
-        $(function(){
-            $(".element").typed({
-                strings: ["hi! ^2000i'm mark.^1000", "welcome to my site!^2000", "check out my projects below^2000", "mark doman"],
-                typeSpeed: 75,
-            });
-        });
-    </script>
-    </span>
+      <span class="element" style="white-space:pre">.</span>
     </div>
+  <a href="./reading.html">
+    <div class="square reading">
+      <span class="readingtext">reading</span>
+    </div>
+  </a>
+  <a href="./programming.html">
+    <div class="square programming">
+      <span class="programmingtext">programming</span>
+    </div>
+  </a>
+  <a href="./cooking">
+    <div class="square cooking">
+      <span class="cookingtext">cooking</span>
+    </div>
+  </a>
+  <a href="./traveling.html">
+    <div class="square traveling">
+      <span class="travelingtext">traveling</span>
+    </div>
+  </a>
 
-  <div class="square reading">
-    <span class="readingtext">reading</span>
-  </div>
-  <div class="square programming">
-    <span class="programmingtext">programming</span>
-  </div>
-  <div class="square cooking">
-    <span class="cookingtext">cooking</span>
-  </div>
-  <div class="square traveling">
-    <span class="travelingtext">traveling</span>
-  </div>
+  <script src="jquery/dist/jquery.js"></script>
+  <script src="typed.js"></script>
+  <script>
+      $(function(){
+          $(".element").typed({
+              strings: ["hi! ^2000i'm mark.^1000", "welcome to my site!^2000", "check out my projects below^2000", "mark doman"],
+              typeSpeed: 75,
+          });
+      });
+  </script>
 
 </body>
 </html>
