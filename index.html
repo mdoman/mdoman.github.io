@@ -4,51 +4,56 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
 </head>
-<body>
+<body onload="myFunction()">
     <div id="container">
-      <span class="element" style="white-space:pre">.</span>
+      <span class="element" style="white-space:pre">|</span>
     </div>
-  <a href="./reading.html">
-    <div class="square reading">
-      <span class="readingtext">reading</span>
+    <div class="links delay">
+      <a target="_blank" href="https://www.linkedin.com/in/markdoman"><i class="fa fa-linkedin-square fa-2x" id="linkedin"></i></a>
+      <a href="mailto:mark.phillip.doman@gmail.com"><i class="fa fa-envelope-o fa-2x" id="email"></i></a>
+      <a target="_blank" href="./resume.pdf"><i class="fa fa-file-text-o fa-2x" id="res"></i></a>
+      <a href="https://www.facebook.com/mark.doman.9"><i class="fa fa-facebook-square fa-2x" id="fb"></i></a>
     </div>
-  </a>
-  <a href="./programming.html">
-    <div class="square programming">
-      <span class="programmingtext">programming</span>
+    <div class="arrow delay">
+      <a href="#projects"><i class="fa fa-angle-down fa-5x" id="arrow"></i></a>
     </div>
-  </a>
-  <a href="./cooking">
-    <div class="square cooking">
-      <span class="cookingtext">cooking</span>
-    </div>
-  </a>
-  <a href="./traveling.html">
-    <div class="square traveling">
-      <span class="travelingtext">traveling</span>
-    </div>
-  </a>
+  <div id="projects">
+    <a href="./reading.html">
+      <div class="square reading">
+        <span class="readingtext">reading</span>
+      </div>
+    </a>
+    <a href="./programming.html">
+      <div class="square programming">
+        <span class="programmingtext">programming</span>
+      </div>
+    </a>
+    <a href="./cooking">
+      <div class="square cooking">
+        <span class="cookingtext">cooking</span>
+      </div>
+    </a>
+    <a href="./traveling.html">
+      <div class="square traveling">
+        <span class="travelingtext">traveling</span>
+      </div>
+    </a>
+  </div>
 
   <script src="jquery/dist/jquery.js"></script>
   <script src="typed.js"></script>
+  <script src="main.js"></script>
   <script>
       $(function(){
           $(".element").typed({
-              strings: ["hi! ^2000i'm mark.^1000", "welcome to my site!^2000", "check out my projects below^2000",
-              "\t    mark doman"],
+              strings: ["hi! ^2000i'm mark.^1000", "welcome to my site!^2000", "check out my passions below^2000",
+              "mark doman"],
               typeSpeed: 75,
           });
       });
   </script>
 
   <script src="https://use.fontawesome.com/da8b60abb5.js"></script>
-
-  <div class=footer>
-    <a target="_blank" href="https://www.linkedin.com/in/markdoman"><i class="fa fa-linkedin-square fa-2x" id="linkedin"></i></a>
-    <a href="mailto:mark.phillip.doman@gmail.com"><i class="fa fa-envelope-o fa-2x" id="email"></i></a>
-    <a target="_blank" href="./resume.pdf"><i class="fa fa-file-text-o fa-2x" id="res"></i></a>
-    <a href="https://www.facebook.com/mark.doman.9"><i class="fa fa-facebook-square fa-2x" id="fb"></i></a>
-  </div>
 
 </body>
 </html>

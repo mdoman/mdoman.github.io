@@ -1,29 +1,28 @@
 /* this is the stylesheet */
 
 body {
-	background-color: black
+	background-color: #0b0e0f
 }
 
-.blocker {
-	margin: 10em 10em 10em 10em;
+#projects {
+	margin-top: 40%;
+
 }
 
 .square {
-		height: 25%;
+		display: inline-block;
 		color: black;
 		font-size: 3em;
 		font-family: 'Amatica SC', cursive;
-		font-weight: bold;
-    float:left;
 		filter: grayscale(100%);
     position: relative;
     width: 40%;
-    /* padding-bottom : 5%;  = width for a 1:1 aspect ratio */
-    margin:1.66%;
-		margin-left: 5%;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 5%;
     background-position:center center;
     background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    background-size:cover;
 }
 
 .square:hover {
@@ -130,6 +129,7 @@ body {
     font-size: 5em;
     color: white;
     font-family: 'Amatica SC', cursive;
+		text-align: center;
 }
 
 .header {
@@ -146,7 +146,8 @@ body {
 }
 
 #container {
-margin: 5em 10em 5em 10em;
+margin: 5em 10em 1em 10em;
+text-align: center;
 }
 
 #body-text {
@@ -204,22 +205,26 @@ margin: 5em 10em 5em 10em;
   100% {
     opacity: 1; } }
 
-.footer {
-position:fixed;
-bottom:0;
+.links {
 text-align: center;
 color: white;
 font-size: 16px;
 width: 99%;
-height: 50px ;
-background-color: #black;
+height: 8%;
 }
 
-#linkedin, #email, #res, #fb {
+.arrow {
+	text-align: center;
+	width: auto;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
+#linkedin, #email, #res, #fb, #arrow {
 	color:white;
 	margin-left: 8px;
 }
 
-#linkedin:hover, #email:hover, #res:hover, #fb:hover {
+#linkedin:hover, #email:hover, #res:hover, #fb:hover, #arrow:hover{
 	color:aqua;
 }
