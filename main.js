@@ -2,12 +2,12 @@
 
 function myFunction (){
 
+    $('#projects').hide();
     $('#fb').hide();
     $('#linkedin').hide();
     $('#res').hide();
     $('#email').hide();
     $('#arrow').hide();
-
 
     setTimeout(function(){
         $('#arrow').fadeIn(3000);
@@ -23,6 +23,9 @@ function myFunction (){
     },20000);
     setTimeout(function(){
         $('#fb').fadeIn(3000);
+    },20500);
+    setTimeout(function(){
+        $('#projects').fadeIn(3000);
     },20500);
 
 
