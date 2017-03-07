@@ -231,7 +231,8 @@ height: 8%;
 }
 
 @media (max-width: 500px) {
-	.reading, .programming, .cooking, .traveling {
+	.reading, .programming, .cooking, .traveling, .square {
 		width: 100%;
+		filter: greyscale(0%);
 	}
 }
